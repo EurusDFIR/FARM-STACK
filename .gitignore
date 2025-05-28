@@ -1,0 +1,12 @@
+*__pycache__
+*__init__.py
+.test.py
+.pytest_cache
+.vscode
+.idea
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
