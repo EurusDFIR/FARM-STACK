@@ -15,15 +15,16 @@
 # else:
 #     print("So chan")
 
-def dem_nguyen_am(chuoi:str)->int:
-    #a,i,u,e,o | A, I,U,E,O
-    dem =0
-    for c in chuoi:
-        c=c.lower()
-        if c == 'a' or c=='i' or c=='u'or c=='e' or c =='o':
-            dem+=1
-    return dem
+# def dem_nguyen_am(chuoi:str)->int:
+#     #a,i,u,e,o | A, I,U,E,O
+#     dem =0
+#     for c in chuoi:
+#         c=c.lower()
+#         if c == 'a' or c=='i' or c=='u'or c=='e' or c =='o':
+#             dem+=1
+#     return dem
 
-st = "hellO aei"
-res = dem_nguyen_am(st)
-print(res)
+# st = "hellO aei"
+# res = dem_nguyen_am(st)
+# print(res)
+print(5//2-1)
