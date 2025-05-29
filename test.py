@@ -1,12 +1,29 @@
 
 
-def tong2So(a: int , b: int )->int:
-    # code gi do 
-    print("DAng xu ly: ")
-    return a+b
+# tuoi =int(input("Nhap tuoi: "))
+# diem = int(input("Nhap diem: "))
 
-a=int(input("Nhap a:"))# 1
-b=int(input("Nhap b:")) # 2
-print("Dang Truyen bien vao ham tong2 so") # debug
-ketQua = tong2So(a,b) # 1, 2 tong2So (1,2)
-print(f"ket qua tu ham tong2so la: {ketQua}")
+# if tuoi >=18 and diem >=70:
+#     print("Du dieu kien tham gia: \n")
+# else:
+#     print("KHong du dieu kien tham gia\n")
+
+
+# num = int(input())
+# if num % 2 != 0:
+#     print("So le")
+# else:
+#     print("So chan")
+
+def dem_nguyen_am(chuoi:str)->int:
+    #a,i,u,e,o | A, I,U,E,O
+    dem =0
+    for c in chuoi:
+        c=c.lower()
+        if c == 'a' or c=='i' or c=='u'or c=='e' or c =='o':
+            dem+=1
+    return dem
+
+st = "hellO aei"
+res = dem_nguyen_am(st)
+print(res)
