@@ -26,5 +26,7 @@
 
 # st = "hellO aei"
 # res = dem_nguyen_am(st)
-# print(res)
-print(5//2-1)
+
+l=[3, 4, 5, 20, 5, 25, 1, 3]
+print(l.pop(1))
+print(l)

@@ -35,7 +35,9 @@ def isUgly(n: int) -> bool:
             return False
         
     return n==1    
-    
+
+def isPretty(n: int)->int:
+    return 0
     
 n = 0
 res = isUgly(n)
