@@ -1,0 +1,1 @@
+<=gio_hien_tai <=1

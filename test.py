@@ -27,6 +27,21 @@
 # st = "hellO aei"
 # res = dem_nguyen_am(st)
 
-l=[3, 4, 5, 20, 5, 25, 1, 3]
-print(l.pop(1))
-print(l)
+# l=[3, 4, 5, 20, 5, 25, 1, 3]
+# print(l.pop(1))
+# print(l)
+
+
+gio_hien_tai = int(input())
+la_cuoi_tuan = (input())
+
+# if 0<= gio_hien_tai <=23:
+if 9 <=gio_hien_tai <=18:
+    if la_cuoi_tuan=="True":
+        print("cua hang dang dong")
+    else:
+            print("Cua hang dang mo")
+else:
+        print("Cua hang dang dong")
+# else:
+#     print("Cua hang dang dong")
