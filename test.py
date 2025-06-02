@@ -1,47 +1,78 @@
+# print("hello")
 
 
-# tuoi =int(input("Nhap tuoi: "))
-# diem = int(input("Nhap diem: "))
+# a = 3 
+# b = 5
+# # kieu so thuc
+# diem_toan = 8.6
+# diem_ly = 9.0
 
-# if tuoi >=18 and diem >=70:
-#     print("Du dieu kien tham gia: \n")
-# else:
-#     print("KHong du dieu kien tham gia\n")
+# print(f"kieu nguyen: a ={a}")
+# print(f"kieu nguyen: b ={b}")
+# print(f"kieu thuc: toan ={diem_toan}")
 
-
-# num = int(input())
-# if num % 2 != 0:
-#     print("So le")
-# else:
-#     print("So chan")
-
-# def dem_nguyen_am(chuoi:str)->int:
-#     #a,i,u,e,o | A, I,U,E,O
-#     dem =0
-#     for c in chuoi:
-#         c=c.lower()
-#         if c == 'a' or c=='i' or c=='u'or c=='e' or c =='o':
-#             dem+=1
-#     return dem
-
-# st = "hellO aei"
-# res = dem_nguyen_am(st)
-
-# l=[3, 4, 5, 20, 5, 25, 1, 3]
-# print(l.pop(1))
-# print(l)
+# tien = 100.00
 
 
-gio_hien_tai = int(input())
-la_cuoi_tuan = (input())
+# def napTien(tien):
+#     nganHang = 200.000
+#     if tien < nganHang:
+#         nganHang+=tien 
+#     return nganHang
 
-# if 0<= gio_hien_tai <=23:
-if 9 <=gio_hien_tai <=18:
-    if la_cuoi_tuan=="True":
-        print("cua hang dang dong")
-    else:
-            print("Cua hang dang mo")
-else:
-        print("Cua hang dang dong")
-# else:
-#     print("Cua hang dang dong")
+# traVe =napTien(tien)
+# print(f"toi co {traVe}{a} nghin")
+# # print("toi co",traVe, "nghin",sep = "/",end = "\n\n\n\n")
+# # print("hello")
+
+# # tinh diem trung binh 3 mon hoc toan ly hoa
+
+# # for i in range(65,92):
+# #     c = chr(i)
+# #     print(f"so thu tu {i} {c}")
+
+# tuAoQuan = ["ao",1,"quan",2.5, False]
+# #  type()
+# print(type(tuAoQuan)) # list
+# print(type(1))# int -> integer
+# print(type("hello"))# str -> string
+# print(type(5.3)) # float
+# print(type(False)) #bool
+
+# x = ("apple", "banana", "cherry")
+# print(type(x))
+# y = {"name" : "John", "age" : 36}
+# # print(type(y)) #dictionary -> tu dien
+
+# d = 5
+# print(d)
+# conver to float
+
+# print(float(d))
+# print(str(d), type(str(d)))
+
+st = "hello world 2"
+
+# print(len(st))
+# print(st.lower())
+# print(st.upper())
+# print(st.strip())
+# print(st.replace("l","b"))
+
+# print(st.split(sep =","))
+
+# print(st.count('l'))
+# 
+# 
+# print(f"vi tri {st.find('ello')}")
+
+
+s= "[python]"
+print(s)
+s = list(s)
+s[0], s[-1] = "", ""
+
+s = '   '.join(s)
+
+# s2 = ''.join(s)
+print(s)

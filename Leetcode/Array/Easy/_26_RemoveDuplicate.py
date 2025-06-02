@@ -1,4 +1,4 @@
-
+import time
 def removeDuplicates(nums: list[int]) -> int:
     cntFirst = len(nums)
 
@@ -18,8 +18,11 @@ def removeDuplicates(nums: list[int]) -> int:
     return cntSecond 
 
 
-nums = [1,1]
-
+nums = [1,1]*30000
+start = time.time()
 res = removeDuplicates(nums)
+end = time.time()
+excution = end - start
+print(f"Time excution: {excution}ms")
 print(res)
 
