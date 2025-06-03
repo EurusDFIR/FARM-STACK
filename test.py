@@ -67,12 +67,32 @@ st = "hello world 2"
 # print(f"vi tri {st.find('ello')}")
 
 
-s= "[python]"
-print(s)
-s = list(s)
-s[0], s[-1] = "", ""
+# s= "[python]"
+# print(s)
+# s = list(s)
+# s[0], s[-1] = "", ""
 
-s = '   '.join(s)
+# s = '   '.join(s)
 
-# s2 = ''.join(s)
-print(s)
+# # s2 = ''.join(s)
+# print(s)
+def tim_min_va_vi_tri(danh_sach: list[int]) -> list[int, int]:
+    ds =[]
+    minValue = min(danh_sach)
+    ds.append(minValue)
+    viTri =0
+    for i in range(0,len(danh_sach)-1):
+        # 0 - > 5 - 1 = 4 -> 0,1,2,3,4
+        print(i)
+        if danh_sach[i] ==minValue:
+
+            viTri =i
+            ds.append(viTri)
+   
+    return  ds 
+
+danh_sach = [5, 2, 9, 1, 7]
+
+res = tim_min_va_vi_tri(danh_sach)
+tp =tuple(res)
+print(res)
