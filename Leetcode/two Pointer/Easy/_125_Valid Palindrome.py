@@ -19,6 +19,6 @@ def isPalindrome(s: str) -> bool:
 
 
 
-s = "0P"
+s = "rad234ar"
 res = isPalindrome(s)
 print(res) 
